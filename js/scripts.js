@@ -1,65 +1,183 @@
 $(document).ready(function() {
 
-  $(".clickable").click(function() {
-    $("#initially-showing").fadeToggle();
-    $("#initially-hidden").fadeToggle();
+  $("#javascriptButton").click(function() {
+    $("#javascriptButton").hide();
+    $("#javascriptDefinition").show();
   });
-  
-  $("button#javascriptButton").click(function(){
-    JavaScript (JS)
+
+  $("#javascriptDefinition").click(function() {
+    $("#javascriptDefinition").hide();
+    $("#javascriptButton").show();
   });
-  $("button#operatorsButton").click(function(){
-    Operators
+
+  $("#operatorsButton").click(function() {
+    $("#operatorsButton").hide();
+    $("#operatorsDefinition").show();
   });
-  $("button#variablesButton").click(function(){
-    Variables
+
+  $("#operatorsDefinition").click(function() {
+    $("#operatorsDefinition").hide();
+    $("#operatorsButton").show();
   });
-  $("button#variableNamingConventionsButton").click(function(){
-    Variable naming conventions
+
+  $("#variablesButton").click(function() {
+    $("#variablesButton").hide();
+    $("#variablesDefinition").show();
   });
-  $("button#functionsButton").click(function(){
-    Functions
+
+  $("#variablesDefinition").click(function() {
+    $("#variablesDefinition").hide();
+    $("#variablesButton").show();
   });
-  $("button#methodsButton").click(function(){
-    Methods
+
+  $("#variableNamingConventionsButton").click(function() {
+    $("#variableNamingConventionsButton").hide();
+    $("#variableNamingConventionsDefinition").show();
   });
-  $("button#argumentsButton").click(function(){
-    Arguments
+
+  $("#variableNamingConventionsDefinition").click(function() {
+    $("#variableNamingConventionsDefinition").hide();
+    $("#variableNamingConventionsButton").show();
   });
-  $("button#parametersButton").click(function(){
-    Parameters
+
+  $("#functionsButton").click(function() {
+    $("#functionsButton").hide();
+    $("#functionsDefinition").show();
   });
-  $("button#returnButton").click(function(){
-    Return
+
+  $("#functionsDefinition").click(function() {
+    $("#functionsDefinition").hide();
+    $("#functionsButton").show();
   });
-  $("button#chainingMethodsButton").click(function(){
-    Chaining methods
+
+  $("#methodsButton").click(function() {
+    $("#methodsButton").hide();
+    $("#methodsDefinition").show();
   });
-  $("button#stringsButton").click(function(){
-    Strings
+
+  $("#methodsDefinition").click(function() {
+    $("#methodsDefinition").hide();
+    $("#methodsButton").show();
   });
-  $("button#booleansButton").click(function(){
-    Booleans
+
+  $("#argumentsButton").click(function() {
+    $("#argumentsButton").hide();
+    $("#argumentsDefinition").show();
   });
-  $("button#undefinedButton").click(function(){
-    Undefined
+
+  $("#argumentsDefinition").click(function() {
+    $("#argumentsDefinition").hide();
+    $("#argumentsButton").show();
   });
-  $("button#nanButton").click(function(){
-    NaN
+
+  $("#parametersButton").click(function() {
+    $("#parametersButton").hide();
+    $("#parametersDefinition").show();
   });
-  $("button#nullButton").click(function(){
-    Null
+
+  $("#parametersDefinition").click(function() {
+    $("#parametersDefinition").hide();
+    $("#parametersButton").show();
   });
-  $("button#alertButton").click(function(){
-    Alert
+
+  $("#returnButton").click(function() {
+    $("#returnButton").hide();
+    $("#returnDefinition").show();
   });
-  $("button#commentsButton").click(function(){
-    Comments
+
+  $("#returnDefinition").click(function() {
+    $("#returnDefinition").hide();
+    $("#returnButton").show();
   });
-  $("button#jqueryButton").click(function(){
-    jQuery
+
+  $("#chainingMethodsButton").click(function() {
+    $("#chainingMethodsButton").hide();
+    $("#chainingMethodsDefinition").show();
   });
-  $("button#attributesButton").click(function(){
-    Attributes
+
+  $("#chainingMethodsDefinition").click(function() {
+    $("#chainingMethodsDefinition").hide();
+    $("#chainingMethodsButton").show();
   });
+
+  $("#stringsButton").click(function() {
+    $("#stringsButton").hide();
+    $("#stringsDefinition").show();
+  });
+
+  $("#stringsDefinition").click(function() {
+    $("#stringsDefinition").hide();
+    $("#stringsButton").show();
+  });
+
+  $("#booleansButton").click(function() {
+    $("#booleansButton").hide();
+    $("#booleansDefinition").show();
+  });
+
+  $("#booleansDefinition").click(function() {
+    $("#booleansDefinition").hide();
+    $("#booleansButton").show();
+  });
+
+  $("#undefinedButton").click(function() {
+    $("#undefinedButton").hide();
+    $("#undefinedDefinition").show();
+  });
+
+  $("#undefinedDefinition").click(function() {
+    $("#undefinedDefinition").hide();
+    $("#undefinedButton").show();
+  });
+
+  $("#nanButton").click(function() {
+    $("#nanButton").hide();
+    $("#nanDefinition").show();
+  });
+
+  $("#nanDefinition").click(function() {
+    $("#nanDefinition").hide();
+    $("#nanButton").show();
+  });
+
+  $("#alertButton").click(function() {
+    $("#alertButton").hide();
+    $("#alertDefinition").show();
+  });
+
+  $("#alertDefinition").click(function() {
+    $("#alertDefinition").hide();
+    $("#alertButton").show();
+  });
+    
+  $("#commentsButton").click(function() {
+    $("#commentsButton").hide();
+    $("#commentsDefinition").show();
+  });
+
+  $("#commentsDefinition").click(function() {
+    $("#commentsDefinition").hide();
+    $("#commentsButton").show();
+  });
+    
+  $("#jqueryButton").click(function() {
+    $("#jqueryButton").hide();
+    $("#jqueryDefinition").show();
+  });
+
+  $("#jqueryDefinition").click(function() {
+    $("#jqueryDefinition").hide();
+    $("#jqueryButton").show();
+  });
+    
+  $("#attributesButton").click(function() {
+    $("#attributesButton").hide();
+    $("#attributesDefinition").show();
+  });
+
+  $("#attributesDefinition").click(function() {
+    $("#attributesDefinition").hide();
+    $("#attributesButton").show();
+  });
+
 });
