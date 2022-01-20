@@ -11,7 +11,7 @@
 
 ## Description
 
-_This page, assigned by [Epicodus](https://epicodus.com) demonstrates click-to-toggle terms and definitions for JavaScript, jQuery, and future subjects in flashcard format._
+_This page, assigned by [Epicodus](https://epicodus.com), demonstrates click-to-toggle terms and definitions for JavaScript, jQuery, and future subjects in flashcard format._
 
 [The
 lesson](https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/practice-more-jquery-basics)
