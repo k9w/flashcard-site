@@ -140,6 +140,16 @@ $(document).ready(function() {
     $("#nanButton").show();
   });
 
+  $("#nullButton").click(function() {
+    $("#nullButton").hide();
+    $("#nullDefinition").show();
+  });
+
+  $("#nullDefinition").click(function() {
+    $("#nullDefinition").hide();
+    $("#nullButton").show();
+  });
+
   $("#alertButton").click(function() {
     $("#alertButton").hide();
     $("#alertDefinition").show();
